@@ -1,12 +1,12 @@
 n=int(input("number of students in a class"))
 stu_id=list()
-stu_name=set()
+stu_name=list()
 stu_dob=list()
 for i in range (n):
     j=input("ID of student "+str(i+1)+": ")
     stu_id.append(j)
     j=input("Name of student "+str(i+1)+": ")
-    stu_name.add(j)
+    stu_name.append(j)
     j=input("Date of birth of student "+str(i+1)+": ")
     stu_dob.append(j)
 
